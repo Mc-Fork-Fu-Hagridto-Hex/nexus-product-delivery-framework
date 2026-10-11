@@ -1,0 +1,2489 @@
+NEXUS — Network of EXperts, Unified in Strategy
+Master Build Instruction Set
+Complete Lifecycle: Phase 0 through Phase 6
+
+The Agency’s complete operational doctrine for multi-agent orchestration, deployment, quality assurance, and long-term product evolution.
+
+1. Strategic Foundation
+
+1.1 What NEXUS Solves
+
+Independent agents are powerful, but separate agents without orchestration create:
+- conflicting decisions
+- duplicated effort
+- incomplete handoffs
+- no single source of truth
+- no quality gate continuity
+- users seeing a product that was never fully validated
+
+NEXUS exists to solve this by turning a collection of specialists into a synchronized operational system. It defines:
+- which agents activate
+- when they activate
+- what they deliver
+- what evidence proves completion
+- what happens when a phase fails
+- what the next handoff must include
+- how deployment, QA, and growth operate as a single system
+
+1.2 Core Operating Principles
+
+- Pipeline integrity: no phase advances without passing its gate
+- Context continuity: every handoff includes context, artifacts, and requirements
+- Parallel execution: independent workstreams run concurrently
+- Evidence over claims: proof is required before approval
+- Fail fast, fix fast: maximum 3 retries before escalation
+- Single source of truth: one canonical specification, one task list, one architecture package
+- Hidden complexity is not allowed: if it matters, it is surfaced and tested
+- Security and compliance are not add-ons; they are design constraints
+- Product strategy is not separated from execution; every phase is linked to evidence and business intent
+
+1.3 Technical Architecture Principle
+
+The build system is designed around a strict internal logic and external simplicity model:
+
+- C11 is the core logic system
+- All internal state management, decision logic, safety logic, and critical processing are authored in C11
+- C99 acts as the translator layer
+- It handles the bridge between substrate/silicon/data access and the C11 logic layer
+- It is the translation, serialization, validation, and cryptographic boundary
+- The C90 layer is intentionally boring
+- It is the user-facing connector layer: low-complexity interface handling, protocol boundaries, standard connection logic, and user/substrate access simplification
+- Python is used only for AI/ML, analytics, data science, model assistance, and non-core orchestration tasks
+- The database layer is encrypted and treated as a protected system boundary
+- The product’s user-facing experience is intentionally minimal and deterministic; complexity belongs inside the logic and translator layers, not in the user layer
+
+This means:
+- external UI, protocols, and user interaction remain simple and boring
+- internal core logic remains strict, auditable, and deterministic
+- AI is strategic support, not the base of the system
+- safety, encryption, and correctness come before convenience
+
+1.4 Agent Structure by Division
+
+Engineering
+- Frontend Developer
+- Backend Architect
+- Mobile App Builder
+- AI Engineer
+- DevOps Automator
+- Rapid Prototyper
+- Senior Developer
+
+Design
+- UX Researcher
+- UX Architect
+- Brand Guardian
+- UI Designer
+- Visual Storyteller
+- Whimsy Injector
+- Image Prompt Engineer
+
+Marketing
+- Growth Hacker
+- Content Creator
+- Twitter Engager
+- TikTok Strategist
+- Instagram Curator
+- Reddit Community Builder
+- App Store Optimizer
+- Social Media Strategist
+
+Product
+- Trend Researcher
+- Feedback Synthesizer
+- Sprint Prioritizer
+
+Project Management
+- Studio Producer
+- Project Shepherd
+- Studio Operations
+- Senior Project Manager
+- Experiment Tracker
+
+Testing
+- Evidence Collector
+- Reality Checker
+- Test Results Analyzer
+- Performance Benchmarker
+- API Tester
+- Workflow Optimizer
+- Tool Evaluator
+
+Support
+- Support Responder
+- Analytics Reporter
+- Infrastructure Maintainer
+- Legal Compliance Checker
+- Finance Tracker
+- Executive Summary Generator
+
+Spatial Computing
+- XR Interface Architect
+- XR Immersive Developer
+- XR Cockpit Interaction Specialist
+- visionOS Spatial Engineer
+- macOS Spatial/Metal Engineer
+- Terminal Integration Specialist
+
+Specialized
+- Agents Orchestrator
+- LSP/Index Engineer
+- Sales Data Extraction Agent
+- Data Consolidation Agent
+- Report Distribution Agent
+
+2. The NEXUS Operating Model
+
+2.1 Lifecycle Flow
+
+Phase 0 → Phase 1 → Phase 2 → Phase 3 → Phase 4 → Phase 5 → Phase 6
+
+Each phase has:
+- objective
+- preconditions
+- agents
+- workstreams
+- sequence
+- deliverables
+- quality gate
+- handoff package
+
+No phase is optional if the product is moving from concept to launch to operation.
+
+2.2 Operating Cadence
+
+- Discovery and strategy run in parallel where possible
+- Foundation workstreams run in parallel
+- Build and QA operate in continuous Dev↔QA loops
+- Hardening is an explicit evidence-based quality gate
+- Launch is executed with synchronized marketing and engineering actions
+- Operations never stop; this is continuous improvement
+
+2.3 Command Structure
+
+Agents Orchestrator sits at the top of the operational chain. It:
+- tracks the active phase
+- assigns tasks
+- ensures quality gates are passed
+- monitors retries and escalations
+- routes issues to the right agent
+- ensures continuity between phases
+
+The Studio Producer manages strategic alignment.
+The Project Shepherd manages execution flow.
+The Senior Project Manager manages task conversion and dependency logic.
+The Reality Checker is the final authority on production readiness.
+
+3. Phase 0 — Intelligence & Discovery
+
+Objective
+
+Validate the opportunity before committing resources. No building until the problem, market, and regulatory landscape are understood.
+
+Pre-Conditions
+- Project brief exists
+- Sponsor is identified
+- Budget for discovery is approved
+
+Agents
+- Trend Researcher
+- Feedback Synthesizer
+- UX Researcher
+- Analytics Reporter
+- Legal Compliance Checker
+- Tool Evaluator
+- Executive Summary Generator
+
+Workstreams
+
+Workstream A: Market Intelligence
+- Trend Researcher
+  - competitor landscape
+  - direct and indirect competitors
+  - TAM, SAM, SOM
+  - adoption curve
+  - 3-6 month trend forecast
+  - funding/investment patterns
+- Analytics Reporter
+  - data source audit
+  - signal identification
+  - baseline metrics
+  - data quality assessment
+- Tool Evaluator
+  - technology stack assessment
+  - build vs buy
+  - integration feasibility
+  - open source vs commercial
+  - tech risk assessment
+
+Workstream B: User Intelligence
+- Feedback Synthesizer
+  - surveys
+  - interviews
+  - product reviews
+  - social listening
+  - sentiment analysis
+  - pain point prioritization
+  - feature request analysis
+  - churn indicators from feedback
+- UX Researcher
+  - interview plan
+  - personas
+  - buyer/user journey mapping
+  - usability heuristics against competitors
+  - behavioral insights with validation
+
+Workstream C: Compliance & Risk
+- Legal Compliance Checker
+  - applicable frameworks
+  - data handling requirements
+  - jurisdiction mapping
+  - compliance severity ratings
+  - blocking vs manageable issues
+- Analytics Reporter
+  - foundation metrics
+  - signal quality
+  - data completeness scoping
+  - data infrastructure recommendations
+
+Outputs Required
+- Market Analysis Report
+- Synthesized Feedback Report
+- Research Findings Report
+- Data Audit Report
+- Compliance Requirements Matrix
+- Tech Stack Assessment
+- Executive Summary
+
+Quality Gate
+Gate Keeper: Executive Summary Generator
+
+Pass conditions:
+- market opportunity validated
+- at least 3 pain points supported by evidence
+- no blocking regulation
+- data sources and metrics identified
+- product/tech feasible
+- executive summary gives GO / NO-GO / PIVOT
+
+Decision:
+- GO: proceed
+- NO-GO: archive findings and redirect
+- PIVOT: revise scope or direction
+
+Handoff to Phase 1
+- Market Analysis Report
+- Synthesized Feedback Report
+- User Personas and Journey Maps
+- Data Audit Report
+- Compliance Requirements Matrix
+- Tech Stack Assessment
+- Executive Summary
+
+4. Phase 1 — Strategy & Architecture
+
+Objective
+
+Define the solution in a way that can survive reality. Before any code is written, define product strategy, brand, architecture, budget, and task conversion.
+
+Pre-Conditions
+- Phase 0 quality gate passed
+- Handoff package received
+- Stakeholder alignment exists
+
+Agents
+- Studio Producer
+- Brand Guardian
+- Finance Tracker
+- UX Architect
+- Backend Architect
+- AI Engineer
+- Senior Project Manager
+- Sprint Prioritizer
+
+Execution Sequence
+
+Step 1: Strategic Framing
+- Studio Producer
+  - portfolio alignment
+  - strategic positioning
+  - objectives
+  - ROI targets
+  - milestones
+  - risk/reward assessment
+- Brand Guardian
+  - brand purpose and values
+  - visual identity
+  - voice
+  - design system foundation
+  - brand usage
+- Finance Tracker
+  - cost projection
+  - staffing cost
+  - infrastructure cost
+  - break-even analysis and risk
+
+Step 2: Technical Architecture
+- UX Architect
+  - CSS design system
+  - layout framework
+  - accessibility baseline
+  - theme system
+  - responsive behavior
+  - information architecture
+- Backend Architect
+  - system pattern choice
+  - communication model
+  - database schema
+  - API patterns
+  - auth architecture
+  - security architecture
+  - scalability plan
+- AI Engineer
+  - ML architecture if applicable
+  - model selection
+  - data pipeline
+  - inference strategy
+  - ethics and safety
+  - retraining and monitoring
+- Senior Project Manager
+  - convert requirements into tasks
+  - exact quoting of requirement language
+  - dependencies
+  - effort estimates
+
+Step 3: Prioritization
+- Sprint Prioritizer
+  - RICE-scored backlog
+  - sprint assignments
+  - critical path
+  - MoSCoW classification
+  - release planning
+
+Quality Gate
+Gate Keepers: Studio Producer + Reality Checker
+
+Pass conditions:
+- architecture covers all requirements
+- design system and identity are complete
+- technical components have an implementation path
+- budget is approved
+- sprint plan is velocity-based and realistic
+- security and compliance are integrated
+
+Handoff to Phase 2
+- Strategic Portfolio Plan
+- Brand Identity System
+- Financial Plan
+- UX Architecture package
+- System Architecture Specification
+- AI System Design if applicable
+- Task List
+- Prioritized Sprint Plan
+
+5. Phase 2 — Foundation & Scaffolding
+
+Objective
+
+Build the technical and operational skeleton before adding product features. This phase makes the environment, pipeline, and build standards viable.
+
+Pre-Conditions
+- Phase 1 quality gate passed
+- Architecture package received
+- All major architecture documents are finalized
+
+Agents
+- DevOps Automator
+- Infrastructure Maintainer
+- Studio Operations
+- Frontend Developer
+- Backend Architect
+- UX Architect
+- Evidence Collector
+
+Workstream A: Infrastructure
+- DevOps Automator
+  - CI/CD pipeline
+  - build/test/security/deploy stages
+  - rollback
+  - IaC
+  - environment provisioning
+  - secrets and config management
+- Infrastructure Maintainer
+  - infra resources
+  - scaling
+  - logging
+  - alerting
+  - monitoring
+  - security hardening
+- Studio Operations
+  - branch strategy
+  - PR process
+  - merge policies
+  - communication channels
+  - docs templates
+  - project board setup
+
+Workstream B: Application Foundation
+- Frontend Developer
+  - framework setup
+  - TypeScript config
+  - testing setup
+  - design system implementation
+  - component library
+  - app shell and route structure
+- Backend Architect
+  - database migrations
+  - schema deployment
+  - API scaffold
+  - auth scaffold
+  - health checks
+  - middleware
+- UX Architect
+  - CSS tokens
+  - theme system
+  - responsive layout system
+  - base component styling
+  - dark/light/system theme toggle
+
+Verification Checkpoint
+Evidence Collector validates:
+- pipeline runs
+- app loads in browser
+- app loads on mobile
+- theme toggle works
+- API health checks respond
+- database is accessible
+- monitoring dashboards are live
+- component library render
+
+Quality Gate
+Gate Keepers: DevOps Automator + Evidence Collector
+
+Pass conditions:
+- CI/CD pipeline builds, tests, and deploys
+- database schema deployed correctly
+- API scaffold responds
+- frontend skeleton renders
+- monitoring dashboards work
+- design system implemented
+- theme toggle works
+- git workflow/docs are defined
+
+Handoff to Phase 3
+- working pipeline
+- app skeleton
+- design system
+- database schema
+- API scaffold
+- auth system skeleton
+- project workflows
+
+6. Phase 3 — Build & Iterate
+
+Objective
+
+Implement the approved features through continuous Dev↔QA loops. This is where the product takes shape and where the NEXUS orchestration model delivers the most benefit.
+
+Pre-Conditions
+- Phase 2 quality gate passed
+- sprint backlog available
+- CI/CD working
+- design system and API scaffold ready
+
+Core Mechanic: Dev↔QA Loop
+
+For every task:
+1. assign task to developer
+2. developer implements
+3. QA tests
+4. if pass, move on
+5. if fail, send targeted feedback
+6. retry up to 3 times
+7. if still failing, escalate
+
+Task Assignment Matrix
+
+Frontend UI
+- Frontend Developer
+- QA: Evidence Collector
+- Support: UI Designer or Whimsy Injector
+
+Backend API
+- Backend Architect
+- QA: API Tester
+- Support: Performance Benchmarker
+
+Database
+- Backend Architect
+- QA: API Tester
+
+Mobile
+- Mobile App Builder
+- QA: Evidence Collector
+
+AI/ML
+- AI Engineer
+- QA: Test Results Analyzer
+
+Infrastructure
+- DevOps Automator
+- QA: Performance Benchmarker
+
+Premium Complex Features
+- Senior Developer
+- QA: Evidence Collector
+
+Prototype Work
+- Rapid Prototyper
+- QA: Evidence Collector
+
+Spatial/XR
+- XR Immersive Developer
+- QA: Evidence Collector
+
+visionOS
+- visionOS Spatial Engineer
+- QA: Evidence Collector
+
+Cockpit UI
+- XR Cockpit Interaction Specialist
+- QA: Evidence Collector
+
+CLI/Terminal
+- Terminal Integration Specialist
+- QA: API Tester
+
+Code Intelligence
+- LSP/Index Engineer
+- QA: Test Results Analyzer
+
+Parallel Build Tracks
+- Track A: Core Product
+- Track B: Growth & Marketing
+- Track C: Quality & Operations
+- Track D: Brand & Experience
+
+Sprint Execution
+- sprint planning
+- task assignment
+- development
+- QA validation
+- bug triage
+- sprint review
+- retrospective
+
+Orchestrator Decision Logic
+- attempt 1: developer fixes specific issues
+- attempt 2: developer fixes with more context
+- attempt 3: escalate and reassign, decompose, or revise approach
+- document task failure and root cause
+
+Quality Gate
+Gate Keeper: Agents Orchestrator
+
+Pass conditions:
+- all sprint tasks passed QA
+- no critical defects remain
+- all API endpoints validated
+- performance baselines remain within threshold
+- acceptance criteria met
+- no open P0/P1 issues
+
+Handoff to Phase 4
+- all implemented features
+- QA evidence
+- API test results
+- performance baseline data
+- brand consistency checks
+- known issues list
+
+7. Phase 4 — Quality & Hardening
+
+Objective
+
+The final quality gauntlet. The Reality Checker defaults to NEEDS WORK. Production readiness requires evidence, not declarations.
+
+Pre-Conditions
+- Phase 3 quality gate passed
+- feature-complete build exists
+- all major tasks are delivered and individually checked
+
+Agents
+- Evidence Collector
+- API Tester
+- Performance Benchmarker
+- Legal Compliance Checker
+- Test Results Analyzer
+- Workflow Optimizer
+- Infrastructure Maintainer
+- Reality Checker
+
+Hardening Sequence
+
+Step 1: Evidence Collection
+- Evidence Collector
+  - desktop screenshots
+  - tablet screenshots
+  - mobile screenshots
+  - interaction flows
+  - error and empty states
+  - theme states
+- API Tester
+  - all endpoints
+  - auth checks
+  - error validation
+  - edge cases
+  - malformed input
+- Performance Benchmarker
+  - 10x expected load
+  - response time disaggregation
+  - throughput
+  - error rate
+  - server resource usage
+  - Core Web Vitals
+- Legal Compliance Checker
+  - privacy
+  - consent
+  - cookies
+  - access control
+  - security compliance
+  - accessibility compliance
+
+Step 2: Analysis
+- Test Results Analyzer
+  - quality score roll-up
+  - severity classification
+  - priority list
+- Workflow Optimizer
+  - process efficiency
+  - bottleneck review
+- Infrastructure Maintainer
+  - production readiness
+  - uptime assumptions
+  - rollback readiness
+  - monitoring quality
+
+Step 3: Final Judgment
+- Reality Checker
+  - reviews all artifact evidence
+  - validates end-to-end user journeys
+  - checks any critical or high-risk issue
+  - verifies spec compliance
+  - default verdict is NEEDS WORK
+  - READY only with clear evidence
+
+Quality Gate
+Gate Keeper: Reality Checker
+
+Pass conditions:
+- critical user journeys work
+- all major devices render correctly
+- performance meets thresholds
+- zero critical vulnerabilities
+- compliance passed
+- implementation matches the specification
+
+Verdicts:
+- READY: move to launch
+- NEEDS WORK: return to Phase 3 with fix list
+- NOT READY: revisit architecture and foundation
+
+Handoff to Phase 5
+- readiness report
+- performance report
+- compliance report
+- infrastructure report
+- fix list if needed
+
+8. Phase 5 — Launch & Growth
+
+Objective
+
+Launch with coordinated operations and market activation. Build value, acquire users, and validate product-market fit under live conditions.
+
+Pre-Conditions
+- Phase 4 quality gate passed
+- deployment plan approved
+- production environment ready
+- content, growth, and support plans prepared
+
+Agents
+- Project Shepherd
+- DevOps Automator
+- Infrastructure Maintainer
+- Growth Hacker
+- Content Creator
+- Social Media Strategist
+- Twitter Engager
+- TikTok Strategist
+- Instagram Curator
+- Reddit Community Builder
+- App Store Optimizer
+- Executive Summary Generator
+- Analytics Reporter
+- Support Responder
+- Feedback Synthesizer
+
+Launch Timeline
+
+T-7: Pre-Launch Preparation
+- content ready
+- campaign assets approved
+- growth mechanisms armed
+- referral system tested
+- ad campaign assets ready
+- support and escalation process ready
+
+T-0: Launch Day
+- deployment
+- health checks
+- traffic switch
+- monitoring
+- support activation
+- ecosystem engagement
+
+T+1 to T+7: Post-Launch
+- track funnel and acquisition
+- monitor issue volume
+- watch support logs
+- read early feedback
+- adjust messaging
+- optimize growth channels
+- refine onboarding and conversion paths
+
+Quality Gate
+Gate Keepers: Studio Producer + Analytics Reporter
+
+Pass conditions:
+- deployment successful
+- platform stable
+- acquisition channels active
+- support is operational
+- feedback loop is functioning
+- KPI tracking is live
+
+Handoff to Phase 6
+- launch metrics
+- support issues
+- growth channel status
+- feedback themes
+- system health baseline
+
+9. Phase 6 — Operate & Evolve
+
+Objective
+
+Run the product as a living system. No end date: continue to operate, improve, and evolve with evidence-backed decisions.
+
+Pre-Conditions
+- Phase 5 quality gate passed
+- operational cadences established
+- baseline metrics documented
+
+Agents
+- Infrastructure Maintainer
+- Support Responder
+- DevOps Automator
+- Analytics Reporter
+- Feedback Synthesizer
+- Sprint Prioritizer
+- Growth Hacker
+- Project Shepherd
+- Executive Summary Generator
+- Finance Tracker
+- Legal Compliance Checker
+- Trend Researcher
+- Brand Guardian
+- Workflow Optimizer
+- Performance Benchmarker
+- Tool Evaluator
+
+Operational Cadences
+
+Continuous
+- infrastructure monitoring
+- uptime management
+- production security
+- incident triage
+- deployment capability
+
+Daily
+- KPI dashboards
+- support summary
+- health check
+
+Weekly
+- analytics review
+- user feedback synthesis
+- sprint planning
+- growth channel optimization
+- cross-team coordination
+
+Bi-Weekly
+- feedback deep dives
+- experiment review
+- content execution
+
+Monthly
+- executive summary
+- financial report
+- compliance status
+- market brief
+- brand consistency review
+
+Quarterly
+- strategic portfolio review
+- process efficiency review
+- performance regression check
+- technology review
+
+Continuous Improvement Loop
+
+Measure → Analyze → Plan → Build → Validate → Deploy → Measure
+
+Feature Development in Phase 6
+- backlog feature selected by Sprint Prioritizer
+- developer builds
+- Evidence Collector validates
+- DevOps Automator deploys
+- Experiment Tracker monitors
+- Analytics Reporter measures
+- Feedback Synthesizer reviews user response
+
+Incident Response Protocol
+
+Severity levels:
+- P0: critical outage or security issue
+- P1: major feature break or significant degradation
+- P2: minor issue with workaround
+- P3: cosmetic or low impact
+
+Response flow:
+- detection
+- triage
+- response
+- resolution
+- post-mortem
+
+Duty:
+- P0: immediate corporate-level escalation
+- P1: project leadership
+- P2: agent response and bug fix
+- P3: backlog item
+
+Growth Operations
+- acquisition channel performance
+- CAC and LTV analysis
+- conversion funnel optimization
+- retention analysis
+- churn risk review
+- viral and referral optimization
+- monthly growth roadmap
+
+Financial Operations
+- revenue review
+- cost review
+- unit economics
+- cash flow
+- budget variance
+- forecast adjustment
+
+Compliance Operations
+- regulatory monitoring
+- privacy policy compliance
+- security hygiene review
+- retention and audit checks
+- documentation maintenance
+
+Strategic Evolution
+- market position review
+- competitive shifts
+- product roadmap updates
+- roadmap prioritization
+- process tuning
+- organizational changes
+
+10. Agent Coordination Matrix
+
+This matrix defines which agents require one another across the lifecycle.
+
+Producer → Consumer
+- Engineering consumes outputs from Product and PM
+- Design feeds Engineering and Marketing
+- Product feeds strategy and backlog decisions
+- QA feeds all phases with evidence
+- Support and infrastructure maintain live product
+- Spatial and specialized workers plug into advanced needs
+
+Critical handoff pairs:
+- Senior Project Manager → all developers
+- UX Architect → Frontend Developer
+- Backend Architect → Frontend Developer
+- Frontend Developer → Evidence Collector
+- Evidence Collector → Agents Orchestrator
+- Brand Guardian → product and marketing
+- Trend Researcher → Studio Producer
+- Reality Checker → Agents Orchestrator
+- Executive Summary Generator → Studio Producer
+
+11. Handoff Protocols
+
+Standard Handoff Template
+- metadata
+- project context
+- task reference
+- acceptance criteria
+- constraints
+- evidence expected
+- next recipient
+
+QA Failure Feedback
+- task ID
+- attempt count
+- exact evidence
+- what expected vs actual was
+- specific fix instructions
+- files to modify
+- retry conditions
+
+Escalation Protocol
+- after 3 failed attempts, escalate
+- reassign, decompose, revise approach, defer, or accept risk
+- document the reason and impact
+
+12. Quality Gates
+
+Phase Gate Summary
+- Phase 0 → Phase 1: Discovery Gate
+- Phase 1 → Phase 2: Architecture Gate
+- Phase 2 → Phase 3: Foundation Gate
+- Phase 3 → Phase 4: Feature Gate
+- Phase 4 → Phase 5: Production / Launch Gate
+- Phase 5 → Phase 6: Operations Gate
+
+Gate rule:
+- no phase advances without evidence
+- no assumption passes
+- a phase fails only when there is proof of failure
+- a phase may be returned for revision if evidence calls for it
+
+13. Risk Management
+
+Risk categories:
+- technical debt
+- security
+- compliance
+- performance
+- brand inconsistency
+- task failure
+- scope creep
+- budget overrun
+- quality regression
+- infra instability
+
+Response:
+- critical issues escalate immediately
+- high issues get direct owner assignment
+- medium issues are handled in sprint planning
+- low issues are backlog items
+
+14. Success Metrics
+
+Pipeline Metrics
+- first-pass QA rate
+- average retries
+- phase completion rate
+- cycle time
+- gate pass rate
+
+Product Metrics
+- API performance
+- page load performance
+- uptime
+- security vulnerabilities
+- spec compliance
+
+Business Metrics
+- acquisition rate
+- activation
+- retention
+- LTV:CAC
+- NPS
+- ROI
+
+Operational Metrics
+- mean time to recovery
+- deployment frequency
+- support response time
+- compliance adherence
+- process efficiency
+
+15. Quick-Start Activation Guide
+
+NEXUS-Full Activation
+- initialize all phases
+- activate orchestrator
+- run discovery, architecture, foundation, build, hardening, launch, operation
+
+NEXUS-Sprint Activation
+- only use the subset required for feature/MVP work
+
+NEXUS-Micro Activation
+- targeted agent activation for bug fix, research, content, or one-off deliverable
+
+16. Final Operating Doctrine
+
+NEXUS is not a prompt library.
+NEXUS is not a loose collection of agents.
+NEXUS is a production system.
+
+It turns The Agency’s specialists into a repeatable, evidence-driven, operational engine that does the following:
+
+- validates business need before build
+- turns strategy into architecture
+- creates an operational foundation before feature work
+- builds inside a controlled Dev↔QA loop
+- hardens before launch
+- launches with synchronized marketing and technical execution
+- operates continuously with improvement loops
+
+The product lifecycle is not a sequence of random tasks. It is a machine.
+The machine is:
+- discovery
+- strategy
+- scaffolding
+- implementation
+- quality hardening
+- launch
+- evolution
+
+And every phase is connected by evidence, accountability, and clear handoff.
+
+NEXUS is the operating doctrine that makes the system work.
+
+This is the full unified build instruction set.
+
+NEXUS — App Fabrication for C11/C99/C90 Stack with Flutter UI
+Master Build Instruction Set
+Complete Lifecycle: Phase 0 through Phase 6 with C11 Core Logic, C99 Translation Layer, C90 Substrate Connection, and Flutter UI
+
+Part 1: Technical Stack Architecture
+
+1.1 Stack Overview
+
+┌─────────────────────────────────────┐
+│         Flutter UI Layer            │  ← User-facing (boring, deterministic)
+│      (Dart, Material Design)        │
+└─────────────┬───────────────────────┘
+              │ gRPC / Protocol Buffers
+┌─────────────▼───────────────────────┐
+│      C90 Connection Layer           │  ← Stateless protocol handler
+│  (Request routing, validation,      │
+│   session mgmt, rate limiting)      │
+└─────────────┬───────────────────────┘
+              │ Internal C11/C99 API
+┌─────────────▼───────────────────────┐
+│      C11 Core Logic Layer           │  ← Decision, state, safety
+│  (Business logic, orchestration,    │
+│   encrypted state management)       │
+└─────────────┬───────────────────────┘
+              │ Encrypted data boundary
+┌─────────────▼───────────────────────┐
+│    C99 Translator & Crypto          │  ← Serialization, encryption
+│  (Data serialization, encryption,   │
+│   database operations, indexing)    │
+└─────────────┬───────────────────────┘
+              │ Substrate operations
+┌─────────────▼───────────────────────┐
+│   Database (Encrypted at Rest)      │  ← Persistent encrypted store
+│   ├── SQLite (mobile/desktop)       │
+│   ├── PostgreSQL (server)           │
+│   └── All data encrypted via C99    │
+└─────────────────────────────────────┘
+
+┌─────────────────────────────────────┐
+│    Python AI/Analytics Sidecar      │  ← ML inference, analysis only
+│ (TensorFlow, NumPy, Pandas, etc)   │
+│ Communicates with C11 for context   │
+└─────────────────────────────────────┘
+
+1.2 Design Principles
+
+External Interface (Flutter + C90)
+- Simple, boring, deterministic
+- No business logic exposed
+- Minimal state surface
+- Predictable error handling
+- All complexity is hidden
+
+Internal Core (C11 + C99)
+- Strict, auditable, secure
+- All business logic is here
+- Encrypted by default
+- No shortcuts or workarounds
+- Safety is non-negotiable
+
+AI Integration (Python)
+- Advisory only, never required
+- Cannot override C11 decisions
+- Runs async, doesn't block user flow
+- Used for analysis, recommendations, pattern detection
+- Not part of the critical path
+
+1.3 Communication Boundaries
+
+Flutter → C90
+- gRPC/Protocol Buffers
+- Stateless requests
+- No session state in Flutter
+- All requests include auth token
+
+C90 → C11
+- Internal C API (fast, zero-copy where possible)
+- Request validation already done
+- Response serialization handled by C90
+
+C11 → C99
+- Encrypted data operations
+- All state changes go through translator
+- C99 handles encryption/decryption
+
+C99 → Database
+- Encrypted writes
+- Validated reads
+- Transaction management
+- Index operations
+
+C11 → Python Sidecar
+- Async message queue or REST callback
+- Context but no control
+- Results are suggestions, not commands
+
+Part 2: Phase 0 — Intelligence & Discovery (With Tech Stack Validation)
+
+2.1 Objectives
+
+Validate business need AND validate that the C11/C99/C90/Flutter stack is appropriate for the problem.
+
+2.2 Agents (Standard + Stack-Specific)
+
+Standard Agents
+- Trend Researcher
+- Feedback Synthesizer
+- UX Researcher
+- Analytics Reporter
+- Legal Compliance Checker
+- Executive Summary Generator
+
+Stack-Specific Agents
+- Tool Evaluator (focus: C11/C99/C90 suitability)
+- Performance Benchmarker (baseline expectations for the stack)
+
+2.3 Discovery Phase Tasks
+
+Workstream A: Market Intelligence (unchanged)
+- Trend Researcher → market, competitors, TAM/SAM/SOM
+- Analytics Reporter → data landscape
+
+Workstream B: User Intelligence (unchanged)
+- Feedback Synthesizer → user pain points, sentiment
+- UX Researcher → personas, journey maps
+
+Workstream C: Technical Stack Validation (STACK-SPECIFIC)
+- Tool Evaluator
+  1. C11 language and compiler selection
+     - GCC vs Clang
+     - Embedded systems vs server deployment
+     - Real-time constraints?
+  2. C99 encryption library selection
+     - OpenSSL vs libsodium vs TweetNaCl
+     - Key management strategy
+     - Encrypted database driver
+  3. C90 connection layer selection
+     - gRPC server implementation (gRPC-C)
+     - Protocol buffer generation
+     - Connection pooling
+  4. Flutter suitability for UI
+     - Dart performance requirements
+     - Flutter version stability
+     - Platform targets (iOS, Android, Web)
+  5. Database selection and encryption strategy
+     - SQLite with SQLCipher (mobile)
+     - PostgreSQL with transparent encryption (server)
+     - Data at rest encryption approach
+  6. Python sidecar architecture
+     - FastAPI or Flask for async ML tasks
+     - Message queue (Redis, RabbitMQ) or REST callbacks
+     - Model serving (TensorFlow Lite, ONNX)
+  7. Deployment target analysis
+     - Container (Docker) for C11/C99/C90 core?
+     - Mobile app (iOS/Android) with embedded C11/C99?
+     - Desktop + mobile + web multi-platform?
+
+- Performance Benchmarker
+  1. C11 core performance expectations
+     - Critical path decision latency < 50ms?
+     - Throughput requirements (RPS)?
+     - Memory overhead expectations?
+  2. C99 encryption overhead
+     - AES-256-GCM cost per transaction?
+     - Key derivation strategy?
+  3. Flutter UI responsiveness targets
+     - 60 FPS or 120 FPS requirement?
+     - Animation complexity limits?
+  4. Network protocol overhead
+     - gRPC binary overhead acceptable?
+     - Typical request/response size?
+  5. Database query performance
+     - Query complexity limits?
+     - Indexing strategy for encrypted data?
+  6. Python sidecar latency tolerance
+     - Can recommendations wait 100ms? 1s? 5s?
+
+Workstream D: Compliance & Security (STACK-SPECIFIC)
+- Legal Compliance Checker
+  1. Encryption compliance
+     - Does the regulation require field-level encryption? (C99 supports this)
+     - Does it require at-rest encryption? (C99 handles this)
+     - Key management compliance (FIPS 140-2? HSM required?)
+  2. Data handling in C11
+     - Is audit logging required? (C11 should implement this)
+     - Are data retention policies enforceable at the C99 layer?
+     - Does compliance require immutable audit trails?
+  3. Flutter/client compliance
+     - Is client-side data caching allowed?
+     - Must the client be stateless? (C90 enforces this)
+     - Are there data residency requirements?
+  4. Python AI/ML compliance
+     - Can the model process sensitive data?
+     - Is model inference audited?
+     - Can recommendations be logged and traced?
+
+2.4 Quality Gate for Phase 0
+
+Gate Keeper: Executive Summary Generator
+
+Pass conditions (standard + stack-specific):
+- Market opportunity validated
+- ≥3 pain points validated
+- C11/C99/C90/Flutter stack is suitable for the problem
+- Encryption requirements are understood
+- Deployment target is clear (mobile, server, hybrid)
+- Performance expectations are quantified
+- Compliance constraints are documented
+- Python AI sidecar role is clarified (if needed)
+
+Output: Executive Summary
+- Business case
+- Technical approach (brief)
+- Stack suitability
+- Risk assessment
+- GO / NO-GO / PIVOT
+
+2.5 Handoff to Phase 1
+
+Standard artifacts +
+- Technical Stack Suitability Report
+- Encryption Requirements Matrix
+- Performance Target Document
+- Deployment Target Specification
+
+Part 3: Phase 1 — Strategy & Architecture (With C11/C99/C90 Design)
+
+3.1 Objectives
+
+Define the full system architecture with C11 logic, C99 translation, C90 connection, Flutter UI, and Python sidecar.
+
+3.2 Agents (Standard + Stack-Specific)
+
+Standard Agents
+- Studio Producer
+- Brand Guardian
+- Finance Tracker
+- Sprint Prioritizer
+- UX Architect
+
+Stack-Specific Agents
+- Backend Architect (C11/C99/C90 core design)
+- AI Engineer (Python sidecar design if applicable)
+- DevOps Automator (deployment strategy for the stack)
+
+3.3 Architecture Design Sequence
+
+Step 1: Strategic Framing (Standard)
+- Studio Producer: portfolio, objectives, ROI
+- Brand Guardian: identity, voice
+- Finance Tracker: budget, staffing, infrastructure costs
+
+Step 2: Technical Architecture (STACK-FOCUSED)
+
+Backend Architect: C11/C99/C90 System Architecture
+
+Output: System Architecture Specification
+
+1. C11 Core Logic Design
+   - Business logic decomposition
+   - State machine definitions
+   - Decision algorithm specifications
+   - Safety constraints and invariants
+   - Error conditions and recovery paths
+   - Concurrency model (mutexes, lock-free, etc)
+   - Performance requirements per function
+
+   Example structure:
+   ```
+   src/core/
+   ├── domain/
+   │   ├── user.c / user.h
+   │   ├── product.c / product.h
+   │   ├── order.c / order.h
+   │   └── ...
+   ├── orchestration/
+   │   ├── request_handler.c
+   │   ├── state_machine.c
+   │   └── decision_engine.c
+   ├── safety/
+   │   ├── invariant_checks.c
+   │   ├── error_recovery.c
+   │   └── audit_logging.c
+   └── api/
+       └── core_api.h  // Internal C API for C90 to call
+   ```
+
+2. C99 Translator & Encryption Layer Design
+   - Serialization strategy
+     - Protocol buffers? JSON? Custom binary?
+     - Size optimization for the chosen format
+   - Encryption design
+     - AES-256-GCM? ChaCha20-Poly1305?
+     - Key management strategy
+     - Key rotation strategy
+     - Nonce/IV generation strategy
+   - Database operation layer
+     - Encrypted SQLite with SQLCipher?
+     - PostgreSQL with pgcrypto?
+     - Custom encryption wrapper?
+     - Index strategy for encrypted data
+   - Transaction management
+     - ACID compliance
+     - Rollback strategy
+     - Concurrent access handling
+
+   Example structure:
+   ```
+   src/translator/
+   ├── serialization/
+   │   ├── protobuf_gen.c
+   │   └── protobuf_gen.h
+   ├── crypto/
+   │   ├── encryption.c
+   │   ├── key_management.c
+   │   └── crypto.h
+   ├── db/
+   │   ├── db_driver.c
+   │   ├── db_transaction.c
+   │   ├── db_schema.c
+   │   └── db.h
+   └── api/
+       └── translator_api.h  // C API for C11 to call
+   ```
+
+3. C90 Connection Layer Design
+   - gRPC service definition
+     - Request/response messages
+     - Streaming vs unary patterns
+     - Error codes and handling
+   - Request validation
+     - Input sanitization
+     - Request bounds checking
+     - Rate limiting strategy
+   - Session management
+     - JWT validation
+     - Session token handling
+     - CORS if needed
+   - Response formatting
+     - Success response structure
+     - Error response structure
+     - Metadata (timestamps, request IDs)
+
+   Example structure:
+   ```
+   src/connection/
+   ├── grpc/
+   │   ├── service.proto
+   │   ├── service.c
+   │   └── service.h
+   ├── validation/
+   │   ├── input_validation.c
+   │   └── validation.h
+   ├── session/
+   │   ├── jwt_handler.c
+   │   └── session.h
+   └── api/
+       └── connection_api.h  // C API exposed to gRPC server
+   ```
+
+4. Database Schema with Encryption
+   - Schema definition
+   - Encrypted column strategy
+   - Index strategy for encrypted data
+   - Migration strategy
+   - Backup/restore strategy for encrypted data
+
+5. Communication Protocol
+   - Flutter ↔ C90: gRPC + Protocol Buffers
+   - C90 ↔ C11: Internal C function calls (no serialization)
+   - C11 ↔ C99: Internal C function calls (data passed by reference)
+   - C99 ↔ Database: SQL with encryption/decryption in C99
+
+6. Python Sidecar Integration (if applicable)
+   - What data does Python need from C11?
+   - How does Python send recommendations back?
+   - Message queue or REST API?
+   - Async task queue (Celery)?
+   - Model serving strategy
+   - Latency tolerance
+
+UX Architect: Flutter + C90 Interface Design
+
+Output: Flutter UI Architecture + gRPC Service Definition
+
+1. Flutter App Structure
+   ```
+   flutter_app/
+   ├── lib/
+   │   ├── main.dart
+   │   ├── generated/
+   │   │   └── google/protobuf/  // Generated from proto
+   │   ├── services/
+   │   │   └── grpc_client.dart   // gRPC client wrapper
+   │   ├── screens/
+   │   │   ├── home_screen.dart
+   │   │   ├── detail_screen.dart
+   │   │   └── ...
+   │   ├── widgets/
+   │   │   ├── design_tokens.dart  // CSS tokens as Dart constants
+   │   │   ├── theme.dart
+   │   │   └── common_widgets.dart
+   │   ├── models/
+   │   │   └── app_state.dart      // Minimal state, from C90
+   │   └── utils/
+   │       └── error_handling.dart
+   ├── pubspec.yaml
+   └── protos/
+       └── service.proto            // gRPC definition
+   ```
+
+2. State Management (Minimal)
+   - Provider or GetX for UI state only
+   - No business logic in Flutter
+   - All state derives from C90 responses
+   - Optimistic UI updates with server reconciliation
+
+3. gRPC Service Definition
+   ```protobuf
+   syntax = "proto3";
+
+   service AppService {
+     rpc GetUser(UserRequest) returns (UserResponse);
+     rpc UpdateUser(UpdateUserRequest) returns (UserResponse);
+     rpc GetProducts(ProductQuery) returns (ProductList);
+     rpc CreateOrder(CreateOrderRequest) returns (OrderResponse);
+   }
+
+   message UserRequest {
+     string user_id = 1;
+   }
+
+   message UserResponse {
+     string id = 1;
+     string name = 2;
+     string email = 3;
+   }
+   ```
+
+4. Error Handling Strategy
+   - gRPC error codes (INVALID_ARGUMENT, INTERNAL, etc)
+   - User-facing error messages (from C90)
+   - Retry logic and backoff strategy
+   - Offline fallback (if any)
+
+5. Network Request Pattern
+   - Every request includes auth token
+   - Every response includes metadata (timestamp, request ID)
+   - No session state in Flutter
+   - All state is server-side (C11/C99)
+
+AI Engineer: Python Sidecar Design (if applicable)
+
+Output: ML System Architecture
+
+1. Model Selection
+   - What models will run?
+   - TensorFlow? PyTorch? scikit-learn?
+   - Model size and inference latency?
+
+2. Data Pipeline
+   - What data does Python consume from C11?
+   - How does Python get the data? (Query? File? Message queue?)
+   - How does Python send results back? (REST API? Callback? Queue?)
+
+3. Inference Strategy
+   - Real-time inference (blocking)?
+   - Async inference (background job)?
+   - Batch processing?
+   - Caching strategy?
+
+4. Integration Points
+   - Where in the C11 logic does Python run?
+   - What decisions depend on Python output?
+   - What happens if Python is unavailable?
+   - Fallback behavior?
+
+5. Monitoring
+   - Model performance tracking
+   - Inference latency monitoring
+   - Data quality monitoring
+
+Senior Project Manager: Spec-to-Task Conversion
+
+Output: Comprehensive Task List (with stack awareness)
+
+1. C11 Core Development Tasks
+   - Domain models
+   - Business logic
+   - State machine
+   - Safety checks
+   - Audit logging
+   - Performance optimization
+
+2. C99 Translator Tasks
+   - Encryption library integration
+   - Serialization implementation
+   - Database driver integration
+   - Schema migration framework
+
+3. C90 Connection Layer Tasks
+   - gRPC server setup
+   - Request validation
+   - Session handling
+   - Error response formatting
+
+4. Flutter UI Tasks
+   - Screen implementation
+   - gRPC client integration
+   - State management
+   - Error handling UI
+
+5. Infrastructure Tasks
+   - Build system (CMake for C11/C99)
+   - Testing framework (Unity or Catch2 for C code)
+   - CI/CD for C and Flutter
+   - Deployment scripting
+
+6. Database Tasks
+   - Schema design
+   - Migration scripting
+   - Backup/restore procedures
+
+Sprint Prioritizer: Backlog Creation
+
+Output: RICE-Scored Backlog, Sprint Plan
+
+Dependencies to respect:
+- C11 core must be designed before C90 can be built
+- C99 encryption must be working before schema can be finalized
+- Database schema must exist before C11 can write
+- C90 API must be defined before Flutter can start
+- Flutter can begin in parallel with C99 (using mocks)
+
+RICE scoring factors:
+- Reach: how many users affected?
+- Impact: does this unblock other work?
+- Confidence: do we know how to build this?
+- Effort: how many days of work?
+
+Example sprint 1:
+- Database schema design and migration framework
+- C11 core skeleton and domain models
+- C99 encryption library integration
+- C90 gRPC service scaffold
+- Flutter app skeleton with gRPC client stub
+
+3.4 Quality Gate for Phase 1
+
+Gate Keepers: Studio Producer + Reality Checker
+
+Pass conditions:
+- C11 core logic is decomposed and documented
+- C99 encryption strategy is concrete
+- C90 gRPC service definition is complete
+- Flutter UI structure is defined
+- Database schema is normalized and encrypted
+- Python sidecar role is clear (or N/A)
+- Dependencies are mapped
+- Sprint plan is realistic and velocity-based
+- All tech choices are documented with rationale
+
+Handoff to Phase 2:
+- System Architecture Specification
+- C11 Logic Design Document
+- C99 Encryption & Translator Design
+- C90 gRPC Service Definition (.proto file)
+- Flutter UI Architecture + Design Tokens
+- Database Schema with Encryption Strategy
+- Task List (spec → tasks)
+- Prioritized Sprint Plan
+
+Part 4: Phase 2 — Foundation & Scaffolding (With Stack Implementation)
+
+4.1 Objectives
+
+Build working skeleton: C11 compiler setup, C99 encryption working, C90 gRPC server running, Flutter app loading, database encrypted and accessible.
+
+4.2 Agents
+
+- DevOps Automator (C build system, CI/CD)
+- Backend Architect (C11/C99 foundation)
+- Infrastructure Maintainer (database, encryption setup)
+- Frontend Developer (Flutter setup)
+- UX Architect (design tokens in Flutter)
+- Evidence Collector (verification)
+
+4.3 Workstream A: C11/C99 Foundation
+
+Task: Set Up C Build System
+
+Developer: Backend Architect
+Effort: 2-3 days
+
+Deliverables:
+- CMakeLists.txt for C11 core
+- Compiler settings (C11 standard, optimization flags, warnings)
+- External dependencies (OpenSSL/libsodium)
+- Build output structure
+
+```cmake
+# CMakeLists.txt
+cmake_minimum_required(VERSION 3.15)
+project(nexus_core C)
+
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -fPIE")
+
+# Find OpenSSL or libsodium
+find_package(OpenSSL REQUIRED)
+
+# Core library
+add_library(nexus_core STATIC
+    src/core/domain/user.c
+    src/core/domain/product.c
+    src/core/orchestration/request_handler.c
+    # ... more files
+)
+
+target_link_libraries(nexus_core PRIVATE OpenSSL::Crypto)
+target_include_directories(nexus_core PUBLIC
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/core/api
+)
+```
+
+QA Check:
+- Code compiles without warnings
+- make clean && make works
+- Generated binaries exist in build/ directory
+
+Task: Implement C11 Core Skeleton
+
+Developer: Backend Architect
+Effort: 3-4 days
+
+Deliverables:
+- Domain models (user, product, order, etc)
+- Business logic stubs
+- Error handling structure
+- Audit logging framework
+
+```c
+// src/core/domain/user.h
+#ifndef NEXUS_USER_H
+#define NEXUS_USER_H
+
+#include <stdint.h>
+
+typedef struct {
+    char id[64];
+    char name[256];
+    char email[256];
+    uint32_t version;
+} User;
+
+// Public API
+int user_create(const char *name, const char *email, User *out);
+int user_get(const char *user_id, User *out);
+int user_update(const User *user);
+int user_delete(const char *user_id);
+
+#endif
+```
+
+```c
+// src/core/domain/user.c
+#include "user.h"
+#include "../../translator/api/translator_api.h"
+#include "../../safety/audit_logging.h"
+
+int user_create(const char *name, const char *email, User *out) {
+    if (!name || !email || !out) {
+        return -EINVAL;
+    }
+
+    User new_user = {};
+    // Create user
+    // Persist (through translator)
+    return 0;
+}
+```
+
+QA Check:
+- All functions compile
+- Public API is visible to C90
+- Error codes are consistent
+- Audit logging is present
+
+Task: Implement C99 Encryption & Translator
+
+Developer: Backend Architect
+Effort: 4-5 days
+
+Deliverables:
+- Encryption/decryption functions
+- Key management
+- Database driver wrapper
+- Serialization functions
+
+```c
+// src/translator/crypto/encryption.h
+#ifndef NEXUS_ENCRYPTION_H
+#define NEXUS_ENCRYPTION_H
+
+#include <stddef.h>
+#include <stdint.h>
+
+typedef struct {
+    uint8_t key[32];
+    uint8_t nonce[12];
+} EncryptionContext;
+
+int encryption_init(EncryptionContext *ctx, const uint8_t *master_key);
+int encryption_encrypt(
+    const EncryptionContext *ctx,
+    const uint8_t *plaintext, size_t plaintext_len,
+    uint8_t *ciphertext, size_t *ciphertext_len,
+    uint8_t *tag
+);
+int encryption_decrypt(
+    const EncryptionContext *ctx,
+    const uint8_t *ciphertext, size_t ciphertext_len,
+    const uint8_t *tag,
+    uint8_t *plaintext, size_t *plaintext_len
+);
+
+#endif
+```
+
+```c
+// src/translator/db/db_driver.h
+#ifndef NEXUS_DB_DRIVER_H
+#define NEXUS_DB_DRIVER_H
+
+int db_init(const char *db_path, const char *encryption_key);
+int db_query(const char *sql, void *result_buffer, size_t *result_size);
+int db_execute(const char *sql);
+int db_transaction_begin(void);
+int db_transaction_commit(void);
+int db_transaction_rollback(void);
+int db_close(void);
+
+#endif
+```
+
+QA Check:
+- Encryption roundtrip works
+- Database creates encrypted file
+- Simple queries work (insert, select)
+- Transactions work
+
+Task: Set Up C90 gRPC Server
+
+Developer: Backend Architect
+Effort: 2-3 days
+
+Deliverables:
+- gRPC-C server skeleton
+- Service implementation stub
+- Request/response serialization
+- Session/auth middleware
+
+```protobuf
+// protos/service.proto
+syntax = "proto3";
+
+package nexus;
+
+service AppService {
+  rpc GetUser(GetUserRequest) returns (GetUserResponse);
+  rpc CreateUser(CreateUserRequest) returns (CreateUserResponse);
+}
+
+message GetUserRequest {
+  string user_id = 1;
+}
+
+message GetUserResponse {
+  string id = 1;
+  string name = 2;
+  string email = 3;
+}
+
+message CreateUserRequest {
+  string name = 1;
+  string email = 2;
+}
+
+message CreateUserResponse {
+  string id = 1;
+  string name = 2;
+  string email = 3;
+}
+```
+
+QA Check:
+- gRPC server compiles and starts
+- Server listens on port
+- Health check responds
+- Proto files compile to C code
+
+4.4 Workstream B: Infrastructure & Database
+
+Task: Set Up Encrypted Database
+
+Developer: Infrastructure Maintainer
+Effort: 2-3 days
+
+Deliverables:
+- SQLCipher / encrypted database setup
+- Schema deployment
+- Migration framework
+- Encryption key management
+
+```sql
+CREATE TABLE users (
+    id TEXT PRIMARY KEY,
+    name TEXT NOT NULL,
+    email TEXT NOT NULL UNIQUE,
+    created_at INTEGER NOT NULL,
+    updated_at INTEGER NOT NULL,
+    version INTEGER NOT NULL DEFAULT 1
+);
+```
+
+QA Check:
+- Database file is encrypted
+- Schema tables are created
+- Queries work through C99 layer
+- Migration scripts run
+
+Task: Set Up CI/CD Pipeline
+
+Developer: DevOps Automator
+Effort: 2-3 days
+
+Deliverables:
+- GitHub Actions workflow
+- C code build, test, analysis
+- Flutter build
+- Test coverage
+
+```yaml
+# .github/workflows/ci.yml
+name: Build & Test
+
+on: [push, pull_request]
+
+jobs:
+  build-c:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libssl-dev cmake
+      - name: Build C core
+        run: |
+          mkdir build
+          cd build
+          cmake ..
+          make
+      - name: Run C tests
+        run: |
+          cd build
+          ctest --verbose
+
+  build-flutter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+      - name: Build Flutter app
+        run: |
+          cd flutter_app
+          flutter pub get
+          flutter build apk --release
+```
+
+QA Check:
+- Pipeline triggers on push
+- C code builds without warnings
+- Tests pass
+- Flutter APK builds
+
+4.5 Workstream C: Flutter Foundation
+
+Task: Flutter Project Setup
+
+Developer: Frontend Developer
+Effort: 1-2 days
+
+Deliverables:
+- Flutter project structure
+- pubspec.yaml with dependencies
+- gRPC client integration
+- Build configuration
+
+```yaml
+# flutter_app/pubspec.yaml
+name: nexus_app
+version: 1.0.0+1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  grpc: ^3.1.0
+  protobuf: ^2.1.0
+  provider: ^6.0.0
+```
+
+```dart
+import 'package:grpc/grpc.dart';
+
+class AppServiceClient {
+  late ClientChannel channel;
+
+  Future<void> connect(String host, int port) async {
+    channel = ClientChannel(
+      host,
+      port: port,
+      options: const ChannelOptions(
+        credentials: ChannelCredentials.insecure(),
+      ),
+    );
+  }
+}
+```
+
+Task: Design System & Theme Implementation
+
+Developer: UX Architect
+Effort: 2-3 days
+
+Deliverables:
+- Design tokens as Dart constants
+- Theme system (light/dark/system)
+- Base component styles
+- Theme toggle
+
+```dart
+class DesignTokens {
+  static const Color primaryBrand = Color(0xFF2563EB);
+  static const Color secondaryBrand = Color(0xFF10B981);
+  static const Color neutralLight = Color(0xFFF9FAFB);
+  static const Color neutralDark = Color(0xFF111827);
+}
+```
+
+```dart
+class AppTheme {
+  static ThemeData lightTheme() {
+    return ThemeData(
+      useMaterial3: true,
+      brightness: Brightness.light,
+      primaryColor: DesignTokens.primaryBrand,
+      scaffoldBackgroundColor: DesignTokens.neutralLight,
+    );
+  }
+
+  static ThemeData darkTheme() {
+    return ThemeData(
+      useMaterial3: true,
+      brightness: Brightness.dark,
+      primaryColor: DesignTokens.primaryBrand,
+      scaffoldBackgroundColor: DesignTokens.neutralDark,
+    );
+  }
+}
+```
+
+QA Check:
+- Flutter app launches
+- Theme switches light/dark
+- System preference respected
+- No design token errors
+
+4.6 Phase 2 Verification Checkpoint
+
+Agent: Evidence Collector
+
+Verify:
+1. C code compiles without warnings
+2. gRPC server starts and health check responds
+3. Database is encrypted
+4. Flutter app launches
+5. Theme toggle works
+6. Design tokens are used consistently
+7. CI/CD pipeline passes
+
+4.7 Quality Gate for Phase 2
+
+Gate Keepers: DevOps Automator + Evidence Collector
+
+Pass conditions:
+- C11 core compiles
+- gRPC server runs
+- encrypted database exists
+- Flutter app builds and launches
+- theme system works
+- CI/CD pipeline passes
+- no P0/P1 issues
+
+Handoff to Phase 3
+- compiled C11/C99 libs
+- gRPC server
+- encrypted database schema
+- Flutter skeleton
+- CI/CD workflow
+- task list
+
+Part 5: Phase 3 — Build & Iterate (With C11/Flutter Dev↔QA)
+
+5.1 Objectives
+
+Implement all business logic in C11, all gRPC endpoints in C90, all UI screens in Flutter. Continuous Dev↔QA loops.
+
+5.2 The Dev↔QA Loop for C11/C99/C90/Flutter Stack
+
+Developer Agent implements
+↓
+Evidence Collector validates
+↓
+PASS → next task
+FAIL → fix and retry, max 3 attempts
+
+5.3 Example Feature — User Management
+
+Task: Implement user creation, retrieval, update, full stack flow
+
+C11 Core: user_create, user_get, user_update
+C99 Translator: encryption + database persistence
+C90 API: gRPC endpoints
+Flutter UI: creation screen and list screen
+
+C11 Example
+
+```c
+int user_create(const char *name, const char *email, User *out) {
+    if (!name || !email || !out) return -EINVAL;
+    User new_user = {};
+    // create and persist
+    return 0;
+}
+```
+
+C99 Example
+
+```c
+int translator_user_insert(const User *user) {
+    // serialize, encrypt, persist to database
+    return 0;
+}
+```
+
+C90 Example
+
+```protobuf
+service AppService {
+  rpc CreateUser(CreateUserRequest) returns (CreateUserResponse);
+  rpc GetUser(GetUserRequest) returns (GetUserResponse);
+}
+```
+
+Flutter UI Example
+
+```dart
+class CreateUserScreen extends StatefulWidget {
+  @override
+  State<CreateUserScreen> createState() => _CreateUserScreenState();
+}
+```
+
+5.4 Phase 3 Quality Gate
+
+Gate Keeper: Agents Orchestrator
+
+Pass conditions:
+- all sprint tasks pass QA
+- C11 core logic is tested
+- C99 encryption is working
+- C90 endpoints respond correctly
+- Flutter UI works on desktop, tablet, mobile
+- no critical/high defects
+- performance baselines met
+
+Handoff to Phase 4
+- implemented C11 logic
+- working C99 translator
+- gRPC API working
+- Flutter UI screens
+- all QA evidence
+
+Part 6: Phase 4 — Quality & Hardening (Stack-Specific)
+
+6.1 Objectives
+
+Verify that C11 logic is sound, C99 encryption is properly applied, C90 handles errors correctly, Flutter renders correctly, and the entire stack works together.
+
+6.2 Hardening Workstreams for C11/C99/C90/Flutter
+
+Workstream A: C11 Core Validation
+- code coverage > 90%
+- static analysis
+- Valgrind memory leak checks
+- invariant verification
+
+Workstream B: C99 Encryption Validation
+- encryption roundtrip test
+- encrypted database verification
+- security best practices
+- compliance validation
+
+Workstream C: C90 Connection Validation
+- gRPC endpoint testing
+- load testing
+- malformed request handling
+
+Workstream D: Flutter UI Validation
+- screenshots across device sizes
+- interaction tests
+- accessibility checks
+- performance checks
+
+Workstream E: End-to-End Validation
+- full user journey
+- network failure handling
+- encryption validation
+
+6.3 Phase 4 Quality Gate
+
+Gate Keeper: Reality Checker
+
+Pass conditions:
+- C11 coverage > 90%
+- no static analysis warnings
+- Valgrind reports are clean
+- encryption roundtrip validated
+- database file encrypted
+- gRPC endpoints validated under load
+- Flutter UI renders correctly on all sizes
+- end-to-end user journey works
+- performance meets thresholds
+
+Verdicts:
+- READY → move to Phase 5
+- NEEDS WORK → return to Phase 3 with fix list
+- NOT READY → revert to architecture and foundation changes
+
+Handoff to Phase 5
+- hardened application
+- evidence package
+- performance certification
+- security certification
+
+Part 7: Phase 5 — Launch & Growth
+
+7.1 Objectives
+
+Deploy the C11/C99/C90/Flutter stack to production and grow the user base.
+
+7.2 Deployment Strategy
+
+Server Deployment (C11/C99/C90)
+- Docker container for gRPC server
+- encrypted database in production
+- backups and monitoring active
+
+Mobile Deployment (Flutter)
+- Android build
+- iOS build
+- store deployment
+
+Python AI Deployment (if applicable)
+- inference service queue or REST API
+- asynchronous ML results
+
+7.3 Launch Checklist
+
+T-7 Days
+- production database created and encrypted
+- gRPC server deployed and healthy
+- backups configured
+- alerts live
+- support team ready
+- content and growth campaigns scheduled
+
+T-0 Launch Day
+- deploy server
+- health check
+- social/media activation
+- support open
+- metrics live
+
+7.4 Monitoring & Metrics
+
+Server health
+- gRPC uptime
+- endpoint latency
+- error rate
+- resource usage
+
+User activity
+- active users
+- signups
+- retention
+- conversion rate
+
+Encryption health
+- key rotation status
+- audit log health
+
+Flutter app
+- crashes
+- startup time
+- screen loads
+
+7.5 Phase 5 Quality Gate
+
+Gate Keepers: Studio Producer + Analytics Reporter
+
+Pass conditions:
+- deployment successful
+- system stable
+- channels active
+- support responsive
+- metrics live
+- feedback loop active
+
+Handoff to Phase 6
+- launch metrics
+- support issues
+- growth channel status
+- feedback themes
+- system health baseline
+
+Part 8: Phase 6 — Operate & Evolve
+
+8.1 Objectives
+
+Run the product as a living system. No end date. Continue improvement with evidence-backed decisions.
+
+8.2 Ongoing Operations
+
+Continuous
+- server health
+- emergency incident response
+- database health
+- encryption checks
+
+Daily
+- KPIs
+- support summary
+- health review
+
+Weekly
+- analytics review
+- feedback synthesis
+- sprint planning
+- growth channel optimization
+
+Monthly
+- executive summary
+- financial review
+- compliance report
+- market brief
+
+Quarterly
+- strategic review
+- process efficiency review
+- technology debt assessment
+
+8.3 Incident Response
+
+Severity levels:
+- P0: outage/data loss/security breach
+- P1: major degradation or feature break
+- P2: minor issue with workaround
+- P3: cosmetic issue
+
+Response flow:
+- detect
+- triage
+- resolve
+- post-mortem
+
+8.4 Feature Development in Phase 6
+
+Request → Prioritize → Design → C11 Core → C99 Translator → C90 API → Flutter UI → QA → Deploy → Measure
+
+8.5 Success Metrics
+
+Reliability:
+- uptime > 99.9%
+- MTTR < 30 minutes
+
+Growth:
+- MoM user growth > 20%
+- activation rate > 60%
+
+Retention:
+- D7 retention > 40%
+- D30 retention > 20%
+
+Financial:
+- LTV:CAC > 3:1
+- ROI > 25%
+
+Quality:
+- NPS > 50
+- support response time < 4 hours
+
+Appendix A: Directory Structure
+
+nexus-app/
+├── README.md
+├── .github/
+│   └── workflows/
+│       ├── ci.yml
+│       └── deploy.yml
+├── src/
+│   ├── core/
+│   │   ├── domain/
+│   │   ├── orchestration/
+│   │   ├── safety/
+│   │   └── api/
+│   ├── translator/
+│   │   ├── crypto/
+│   │   ├── db/
+│   │   └── api/
+│   └── connection/
+│       ├── grpc/
+│       ├── validation/
+│       └── session/
+├── flutter_app/
+│   ├── lib/
+│   ├── protos/
+│   └── test/
+├── python_ai/
+├── test/
+├── docs/
+├── docker/
+├── scripts/
+├── data/
+├── protos/
+├── CMakeLists.txt
+└── .gitignore
+
+Appendix B: Quick Start Commands
+
+Build the system
+
+```bash
+mkdir build
+cd build
+cmake ..
+make -j4
+ctest --verbose
+```
+
+Run the C server
+
+```bash
+./build/bin/grpc_server --addr=localhost:50051
+```
+
+Run Flutter app
+
+```bash
+cd flutter_app
+flutter pub get
+flutter run
+```
+
+Deploy Docker container
+
+```bash
+docker build -t nexus-server:latest .
+docker run -d -p 50051:50051 nexus-server:latest
+```
+
+Appendix C: Encryption & Security Checklist
+
+Before Launch
+- C11 logic is audited for correctness
+- C99 encryption uses AES-256-GCM or equivalent
+- Database file is encrypted
+- Data in transit is encrypted
+- No plaintext secrets in code or logs
+- Authentication tokens expire
+- Input validation is strict
+- Dependency versions pinned
+
+During Operations
+- daily encryption status checks
+- weekly security scans
+- monthly compliance review
+- regular key rotation review
+
+Final Summary
+
+This is a complete production-ready instruction set for building and operating an app with:
+- C11 Core Logic
+- C99 Translator
+- C90 Connection Layer
+- Flutter UI
+- optional Python AI sidecar
+- full NEXUS lifecycle pipeline
+- evidence-based quality gates
+- security and encryption by design
+- Dev↔QA looping for continuous validation
+
+The stack is designed so:
+- users see simplicity (Flutter + C90)
+- logic is rigorous (C11 + C99)
+- everything is encrypted (C99 + DB)
+- AI is advisory (Python sidecar)
+- quality is proven (evidence at every gate)
+
+This is how The Agency builds products at scale.
